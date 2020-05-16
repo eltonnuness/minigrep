@@ -1,10 +1,10 @@
-#Minigrep
+# Minigrep
 simple grep clone, this program read the file and return lines by query passed.
 
-##How build
+## How build
 `cargo build --release`
 
-##How use
+## How use
 `./minigrep {query} {filename}`
 
 example: 
@@ -14,7 +14,4 @@ example:
 or with no case sensitive
 
 `CASE_INSENSITIVE=1 ./minigrep to poem.txt`
-
-
-
 
